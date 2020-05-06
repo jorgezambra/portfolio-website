@@ -12,8 +12,7 @@
 * {
   box-sizing: border-box;
 }
-
- body {
+body {
    background-color: var(--background-color);
    font-family: 'Caveat', sans-serif;
    font-weight: 400;
