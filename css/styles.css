@@ -101,7 +101,6 @@ button:focus,
 .profile {
   max-width: 700px;
   margin: 0 auto;
-  display: inline-block;
 }
 
 .page-header {
