@@ -1,7 +1,7 @@
 :root {
   --primary-color: #d2d9d8;
   --secondary-color: #168a79;
-  --background-color: #17403a;
+  --background-color: #187a6c;
   --link-visited-color: #a0a8a8;
   --link-active-color: #e61010;
   --button-background-color: #000;
@@ -58,6 +58,10 @@ button {
   font-family: system-ui;
 }
 
+table {
+  text-align: center;
+}
+
 .button, button {
   border: none;
   display: inline-block;
@@ -79,6 +83,10 @@ button:focus,
   opacity: 0.4;
 }
 
+.contact_info {
+  text-align: center;
+}
+
 .navigation-list__item--active {
   text-decoration: none;
 }
@@ -96,6 +104,12 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.page_title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60px;
 }
 
 .profile {
@@ -132,6 +146,12 @@ button:focus,
 .projects__item {
   display: inline-block;
   width: 40%;
+}
+
+.work_screenshot {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
 }
 
 .projects {
